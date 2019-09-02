@@ -16,7 +16,7 @@
 
 程式執行畫面
 
-![Imgur-w50](https://i.imgur.com/7qEw7wR.png")
+![Imgur-w50](https://i.imgur.com/7qEw7wR.png@w=50@h=20)
 
 
 解題想法與概念：
