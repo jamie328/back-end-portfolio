@@ -11,6 +11,8 @@
 利用創建計算機過程，開發應有 Class Method，使用者可以 Text 或 Button 方式去使用計算機。
 
 程式執行畫面為計算機介面
+
+
 <img src="https://i.imgur.com/y3XkQvw.png" alt="計算機介面" title="width=200'" width="150" />
 
 解題想法與概念：

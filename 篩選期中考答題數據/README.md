@@ -17,6 +17,7 @@
 將 midterm2.csv 檔案內的學生繳交的資料作整理，檔案內重要訊息為：(1) 繳交時間 (2) 繳交題目 (3) 批改結果，其中批改結果包含 Accepted、Compile Error、Runtime Error、Time Limit Exceed、Wrong Answer 五種，想要整理各題目學生的答題狀況。
 
 程式執行畫面為使用者輸入 11:30:00 ~ 12:00:00 學生繳交期中考的批改數據整理
+
 <img src="https://i.imgur.com/3lOU3Pl.png" alt="期中考批改數據" title="width=300'" width="350" />
 
 解題想法與概念：
