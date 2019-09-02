@@ -16,8 +16,7 @@
 
 程式執行畫面
 
-![Imgur-w50](https://i.imgur.com/7qEw7wR.png@w=50@h=20)
-
+<img src="https://i.imgur.com/7qEw7wR.png" alt="基地台執行畫面" title="width=200'" width="200" />
 
 解題想法與概念：
 1. 因有n個城鎮，取p個城鎮設置基地台，d距離內可以收到訊號
