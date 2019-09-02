@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="453feff7-afbd-4150-85d5-5ebf576465cc" name="Default Changelist" comment="" />
+    <list default="true" id="353a4438-950c-4d53-90d8-e6915ab3af15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../2019熱門電影關鍵字爬蟲/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2019熱門電影關鍵字爬蟲/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,23 +11,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie_excellent.json">
+        <entry file="file://$PROJECT_DIR$/Stock_web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movieKeyword2019.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="-1311">
+              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="464">
-                <caret line="24" selection-start-line="24" selection-end-line="25" />
+              <first_editor relative-caret-position="272">
+                <caret line="22" selection-start-line="22" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -58,7 +51,7 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/2019熱門電影關鍵字爬蟲.iml" />
+        <option value="$PROJECT_DIR$/.idea/篩選適合投資標的物網頁爬蟲.iml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
@@ -77,23 +70,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="2019熱門電影關鍵字爬蟲" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2019熱門電影關鍵字爬蟲" type="462c0819:PsiDirectoryNode" />
+              <item name="篩選適合投資標的物網頁爬蟲" type="b2602c69:ProjectViewProjectNode" />
+              <item name="篩選適合投資標的物網頁爬蟲" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../crawler_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,20 +104,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="453feff7-afbd-4150-85d5-5ebf576465cc" name="Default Changelist" comment="" />
-      <created>1567422933095</created>
+      <changelist id="353a4438-950c-4d53-90d8-e6915ab3af15" name="Default Changelist" comment="" />
+      <created>1567435393375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567422933095</updated>
+      <updated>1567435393375</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -133,29 +129,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movie_excellent.json">
+    <entry file="file://$PROJECT_DIR$/Stock_web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movieKeyword2019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="-1311">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -163,8 +148,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="464">
-            <caret line="24" selection-start-line="24" selection-end-line="25" />
+          <first_editor relative-caret-position="272">
+            <caret line="22" selection-start-line="22" selection-end-line="23" />
           </first_editor>
           <second_editor />
         </state>
