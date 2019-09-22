@@ -1,5 +1,4 @@
-## 基地台
----
+## 基地台   <br/>[Portfolio_Code頁面](https://huangjamison.github.io/Portfolio_Code/)
 ###  (A)程式學習到的事情：
 * (1) 邏輯觀念的建立
     * 如何讀把文字敘述先寫成 pseudo code，並將其轉換成程式碼
