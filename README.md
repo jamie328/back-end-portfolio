@@ -12,3 +12,11 @@
 **5. [篩選適合投資標的物網頁爬蟲 (篩選符合 Criteria 股票)](https://huangjamison.github.io/Portfolio_Code/篩選適合投資標的物網頁爬蟲)**
 
 **6. [Django 架設簡易網站與To-do-app (使用 MTV 框架實作架設簡易網站與To-do-app)](https://reurl.cc/1QY808)**
+
+**7. [Django how to do pagination & searching](https://reurl.cc/D1dkpE)**
+
+**8. [Django Login 與串接 API 登入功能](https://reurl.cc/RdjGox)**
+
+**9. [用 Django 作出有社群功能的 BBS 留言板](https://reurl.cc/9zOMoj)**
+
+
