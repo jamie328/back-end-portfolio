@@ -13,10 +13,10 @@
 
 **6. [Django 架設簡易網站與To-do-app (使用 MTV 框架實作架設簡易網站與To-do-app)](https://reurl.cc/1QY808)**
 
-**7. [Django how to do pagination & searching](https://reurl.cc/D1dkpE)**
+**7. [Django how to do pagination & searching](https://reurl.cc/e53bYx)**
 
-**8. [Django Login 與串接 API 登入功能](https://reurl.cc/RdjGox)**
+**8. [Django Login 與串接 API 登入功能](https://reurl.cc/W4rY9x)**
 
-**9. [用 Django 作出有社群功能的 BBS 留言板](https://reurl.cc/9zOMoj)**
+**9. [用 Django 作出有社群功能的 BBS 留言板](https://reurl.cc/Rdr7M9)**
 
 

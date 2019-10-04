@@ -29,7 +29,7 @@
 [用 Django 作出有社群功能的 BBS 留言板的開發與知識紀錄](https://reurl.cc/9zOMoj)
 
 
-<img src="https://i.imgur.com/SEb543F.png" alt="網站登入功能" title="width=400" width="500" />
+<img src="https://i.imgur.com/RyAMS62.png" alt="BBS 社群功能頁面" title="width=400" width="500" />
 <br/><br/>
 
 
