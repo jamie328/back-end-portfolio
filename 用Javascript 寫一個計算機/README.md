@@ -1,5 +1,5 @@
 ## 用Javascript寫一個計算機  <br/>
-[計算機連結](https://huangjamison.github.io/Calculator/calc.html)
+[計算機連結](https://huangjamison.github.io/Calculator/calc.html)<br/>[Portfolio_Code頁面](https://huangjamison.github.io/Portfolio_Code/)
 ---
 ### (A)程式學習到的事情：
 * (1) 練習刻畫計算機介面

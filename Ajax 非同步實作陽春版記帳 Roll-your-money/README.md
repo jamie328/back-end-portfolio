@@ -1,6 +1,6 @@
 ## Ajax 非同步實作記帳App Roll-your-money
   <br/>
-[記帳App連結](https://nodejs-jamie.herokuapp.com/roll-money)
+[記帳App連結](https://nodejs-jamie.herokuapp.com/roll-money)<br/>[Portfolio_Code頁面](https://huangjamison.github.io/Portfolio_Code/)
 ---
 ### (A)程式學習到的事情：
 * (1) 理解 Ajax 與 非同步意義

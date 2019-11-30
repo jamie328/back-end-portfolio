@@ -1,6 +1,6 @@
 ## 利用 Node.js 實作發信功能
   <br/>
-[發信功能連結](https://nodejs-jamie.herokuapp.com/form)
+[發信功能連結](https://nodejs-jamie.herokuapp.com/form)<br/>[Portfolio_Code頁面](https://huangjamison.github.io/Portfolio_Code/)
 ---
 ### (A)程式學習到的事情：
 * (1) 使用 nodemailer 實作寄信功能
