@@ -1,6 +1,4 @@
-### 程式自學 Code Side Project <br/>[Jamie Huang程式的自學小部落格](https://jamie-web-heroku.herokuapp.com/index/)
-    <br/>
-    [Javascript & Node.js 作品集](https://huangjamison.github.io/)
+### 程式自學 Code Side Project <br/>[Jamie Huang程式的自學小部落格](https://jamie-web-heroku.herokuapp.com/index/)<br>[Javascript & Node.js 作品集](https://huangjamison.github.io/)
 ---
 
 **1. [選基地台問題 (基礎迴圈觀念建立)](https://huangjamison.github.io/Portfolio_Code/選基地台問題)**
@@ -19,15 +17,15 @@
 
 **8. [用 Django 作出有社群功能的 BBS 留言板](https://reurl.cc/Rdr7M9)**
 
-**9. [HTML & CSS 小作品(名片與履歷表)](https://huangjamison.github.io/Portfolio_Code/HTML & CSS 小作品(名片與履歷表))**
+**9. [HTML & CSS 小作品(名片與履歷表)](https://reurl.cc/9zyRxO)**
 
-**10. [Javascript 寫一個反應力小遊戲](https://huangjamison.github.io/Portfolio_Code/Javascript 寫一個反應力小遊戲)**
+**10. [Javascript 寫一個反應力小遊戲](https://reurl.cc/QpDZmZ)**
 
-**11. [用 Javascript 寫一個計算機](https://huangjamison.github.io/Portfolio_Code/用 Javascript 寫一個計算機)**
+**11. [用 Javascript 寫一個計算機](https://reurl.cc/alz4R7)**
 
-**12. [Twitch API 超簡易實作](https://huangjamison.github.io/Portfolio_Code/Twitch API 超簡易實作)**
+**12. [Twitch API 超簡易實作](https://reurl.cc/pDX5ob)**
 
-**13. [Ajax 非同步實作陽春版記帳 Roll-your-money](https://huangjamison.github.io/Portfolio_Code/Ajax 非同步實作陽春版記帳 Roll-your-money)**
+**13. [Ajax 非同步實作陽春版記帳 Roll-your-money](https://reurl.cc/oDX5XD)**
 
-**14. [用 node.js 實作發信功能](https://huangjamison.github.io/Portfolio_Code/用 node.js 實作發信功能)**
+**14. [用 node.js 實作發信功能](https://reurl.cc/EKD1DR)**
 

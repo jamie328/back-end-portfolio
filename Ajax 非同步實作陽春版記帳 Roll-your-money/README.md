@@ -18,7 +18,7 @@
 [Ajax 記帳 App 實作心得記錄](https://reurl.cc/31meOR)
 
 
-<img src="./roll-money.png" alt="roll-your-money" title="width=400" width="500" />
+<img src="./roll-money.png" alt="roll-your-money" width="500" height="300" />
 <br/><br/>
 
 

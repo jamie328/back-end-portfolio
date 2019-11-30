@@ -17,7 +17,7 @@
 [計算機實作心得記錄](https://reurl.cc/yyXM1a)
 
 
-<img src="./計算機.PNG" alt="計算機" title="width=400" width="500" />
+<img src="./計算機.PNG" alt="計算機" title="width=500" width="250" />
 <br/><br/>
 
 

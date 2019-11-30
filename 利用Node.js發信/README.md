@@ -18,7 +18,7 @@
 [Node.js發信功能實作心得記錄](https://reurl.cc/W4WvNk)
 
 
-<img src="./發信.PNG" alt="訂閱服務" title="width=400" width="500" />
+<img src="./發信.PNG" alt="訂閱服務" width="300" height="250" />
 <br/><br/>
 
 

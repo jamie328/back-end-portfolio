@@ -13,7 +13,7 @@
 程式執行畫面為計算機介面
 
 
-<img src="https://i.imgur.com/y3XkQvw.png" alt="計算機介面" title="width=200'" width="150" />
+<img src="https://i.imgur.com/y3XkQvw.png" alt="計算機介面" width="160" height="200" />
 
 解題想法與概念：
 1. 利用 tkinter 建立計算機物件
