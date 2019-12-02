@@ -1,0 +1,471 @@
+@charset "UTF-8";
+*{
+  position:relative;
+  vertical-align:top;
+}
+/*  height:100%;width:100%;*/
+html,body{
+  border:none;
+  box-sizing:border-box;
+  height:100%;width:100%;
+  background-color: white;
+  margin:0;padding:0;
+  font-family: 微軟正黑體;
+  word-wrap:break-word;
+}
+.resume{
+  margin-left:auto; margin-right:auto;
+  box-shadow: 10 px 10px 10px rgba(0,0,0,0.2);
+  box-sizing:border-box;
+  min-width: 1200px; min-height: 1200px;
+}
+.name{
+  height:120px;border-bottom:solid 2px #93eae6;
+  padding-top:10px;
+  color:black;
+  font-size:32px;
+  text-align:center;
+  letter-spacing:10px;
+  background-image:url('../images/bg.jpg');
+  background-position:bottom;
+  background-size:cover;
+}
+.re-en-name{
+  font-size:12px; letter-spacing:3px;
+}
+.slogan{
+  font-size:16px;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  margin-top:10px; width:100%;
+}
+.mid-left,.mid-right{
+  display: inline-block;
+  width:50%;
+  box-sizing:border-box;
+  font-weight:300;
+  font-size:24px;
+  position:relative;
+  height:1600px;
+  overflow:hidden;
+}
+
+/*mid-left*/
+.mid-left{
+  padding-top:20px;
+  width:40%;
+  background-color:#fff1c1;
+}
+.photo{
+  width:22%;
+  left:37%;
+  border-radius:50%;
+  overflow: hidden;
+}
+.about{
+  font-size:18px;
+  text-align:center;
+  padding-top:15px;
+}
+.brief-intro{
+  margin-top:20px;
+  margin-left:30px;
+  margin-right:10px;
+  margin-bottom:10px;
+  font-size:16px;
+  letter-spacing:3px;
+  font-weight:500;
+  width:81%;
+}
+.contact {
+  margin-left:20px;
+  font-size:28px;
+  padding:10px;
+  margin-top:20px;
+}
+.contact i .contact-tit{
+  left:50px;
+  top:1px;
+  font-size:22px;
+  letter-spacing:1.5px;
+  position:absolute;
+}
+.contact-info{
+  margin-top:30px;
+  margin-left:15px;
+  line-height:60px;
+  font-size:24px;
+}
+.contact-info span{
+  font-size:18px;
+  padding-left:20px;
+  top:2px;
+  font-weight:350;
+  font-family:微軟正黑體;
+}
+.contact-info a span{
+    font-size:12px;
+    letter-spacing:0.5px;
+    color:black;top:5px;
+}
+.contact-info a{
+    color:black
+}
+.ability i {
+  margin-left:22px;
+  font-size:28px;
+  padding:5px;
+}
+.ability i span{
+  position:absolute;
+  left:60px; top:7px;
+  font-size:22px;
+  letter-spacing:1.5px;
+}
+/*
+.ability ul li{
+  font-size:14px;
+  line-height:26px;
+  list-style: square;
+  text-transform:capitalize;
+}
+*/
+/*
+.mid-left hr{
+  height: 1.5px;
+  border: 1px;
+  background-color: #64c4ed;
+  margin-top:0px;
+}
+*/
+.ability .coding-skill .code {
+  left:40px;top:20px;
+  font-size:16px;
+  font-weight:600;
+  line-height:65px;
+  position:relative;
+  margin-top:25px;
+}
+.hp {
+  border: solid 3px #50b6bb;
+  position:absolute;
+  width:250px;height:18px;
+  border-radius:12px;
+  top: 25px; left:110px;
+}
+.hp-p{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:213px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-j{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:213px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-p-w{
+    position:absolute;
+    top:1px;left:230px;
+    color:white; font-size:16px;
+}
+.hp-e{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:202px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-p-we{
+    position:absolute;
+    top:1px;left:205px;
+    color:white; font-size:16px;
+}
+.hp-h{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:188px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-c{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:175px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-n{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:200px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-d{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:200px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-g{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:188px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+.hp-db{
+  border:solid 3px #50b6bb;
+  position:absolute;
+  width:163px; height:18px;
+  background-color:#50b6bb;
+  border-radius:12px;
+  top:25px;left:110px;
+}
+/*mid-right*/
+.mid-right{
+  width:60%;
+  background-color:#eee;
+}
+.edu-exp-tit{
+  font-size:26px;
+  left:30px;
+  top:20px;
+  width:80%;
+  margin-top:10px;
+}
+.edu-exp-tit i span{
+  font-size:22px;
+  letter-spacing:1.5px;
+  left:15px; top:2px;
+}
+.edu-exp{
+  letter-spacing:1.5px;
+  top:35px;
+  line-height:32px;
+  width:80%;
+}
+.edu-exp .edu-exp-p{
+  letter-spacing:1.5px;
+  padding-top:23px;
+  top:-20px; left:100px;
+}
+.edu-exp .edu-exp-p .edu-exp-p-t{
+  font-size:20px;
+  font-weight:500;
+}
+.edu-exp .edu-exp-p small{
+  font-size:16px;
+  top:5px;
+}
+.edu-exp .edu-exp-p span{
+  font-size:14px; font-weight:350;
+  line-height:16px;
+  top:16px;
+}
+.line{
+  background-color: black;
+  width:7px; height:500px;
+  left:60px; top:10px;
+  position:absolute;
+  border-radius:10%;
+}
+.line-cir1{
+  width:25px; height:25px;
+  background-color:#20a9a6;
+  border-radius:60%;
+  position:absolute;
+  left:-10px;top:-1px;
+}
+.line-cir1-in{
+  width:5px; height:5px;
+  background-color:white;
+  border-radius:100%;
+  position:absolute;
+  left:10px; top:10px;
+}
+.line-cir2{
+  width:25px; height:25px;
+  background-color:#20a9a6;
+  border-radius:60%;
+  position:absolute;
+  left:-10px;top:150px;
+}
+.line-cir2-in{
+  width:5px; height:5px;
+  background-color:white;
+  border-radius:100%;
+  position:absolute;
+  left:10px; top:10px;
+}
+.line-cir3{
+  width:25px; height:25px;
+  background-color:#20a9a6;
+  border-radius:60%;
+  position:absolute;
+  left:-10px;top:330px;
+}
+.line-cir3-in{
+  width:5px; height:5px;
+  background-color:white;
+  border-radius:100%;
+  position:absolute;
+  left:10px; top:10px;
+}
+.my-ach-tit{
+  margin-left:40px;
+  margin-top:75px;
+  font-size:26px;
+  width:80%;
+}
+.my-ach-tit span{
+  left:20px;
+  font-size:23px;
+}
+
+.my-ach{
+  margin-left:65px;
+  margin-top:0px;
+}
+.my-ach ul li{
+  list-style:square;
+}
+.work{
+  font-size:18px;
+  letter-spacing:1px;
+  width:80%;
+  padding-top:20px; padding-left:10px;
+  min-height: 200px;
+}
+.work > img{
+  width:300px;height:170px;
+  border-radius:0%;
+  border:solid 1.5px black;
+  position:absolute;
+  left:300px;top:22px;
+}
+.work > .work-img4{
+  width:300px;height:170px;
+  border-radius:0%;
+  border:solid 1.5px black;
+  position:absolute;
+  left:300px;top:210px;
+}
+.work .work-p{
+  font-size:18px;
+  line-height:40px;
+  padding-top:10px;
+}
+
+
+.link{
+   font-size:18px; letter-spacing:1.5px; text-align:center;
+   margin-top:10px; margin-bottom:10px;
+   min-width: 1200px;
+}
+.link > a{
+  color: #424244;
+  transition: all 0.15s ease-in;
+}
+.link > a:hover{
+  color: whitesmoke;
+  background-color: rgb(110, 105, 105);
+}
+/*動畫*/
+.hp-p-w,.code span{
+  transition:0.8s;
+}
+.code-p:hover .hp-p-w{
+  color: blue;
+}
+.code-p:hover span{
+  color: blue;
+}
+.code-j:hover .hp-p-w{
+  color: blue;
+}
+.code-j:hover span{
+  color: blue;
+}
+.code-n:hover .hp-p-w{
+  color: blue;
+}
+.code-n:hover span{
+  color: blue;
+}
+.code-h:hover .hp-p-w{
+  color:blue;
+}
+.code-h:hover span{
+  color: blue;
+}
+.code-dj:hover .hp-p-w{
+  color:blue;
+}
+.code-dj:hover span{
+  color: blue;
+}
+.code-e:hover .hp-p-we{
+  color:blue;
+}
+.code-e:hover span{
+  color: blue;
+}
+.code-g:hover .hp-p-w{
+  color:blue;
+}
+.code-g:hover span{
+  color: blue;
+}
+.code-c:hover .hp-p-w{
+  color:blue;
+}
+.code-c:hover span{
+  color: blue;
+}
+.code-d:hover .hp-p-w{
+  color:blue;
+}
+.code-d:hover span{
+  color: blue;
+}
+.contact:hover i{
+  font-size:30px;
+}
+.ability:hover i{
+  font-size:32px;
+}
+.my-ach-tit:hover i{
+  font-size:32px;
+}
+.edu-exp-tit:hover i{
+  font-size:32px;
+}
+.edu-exp-p:hover .edu-exp-p-t{
+  text-decoration:underline;
+  text-decoration-color: hsl(21, 13%, 30%);
+}
+.work1:hover {
+   font-weight: bold;
+}
+.work2:hover {
+   font-weight: bold;
+}
+.ori-link:hover a{
+    color:black;
+    background-color:#b2e4d5;
+    transition:0.5s;
+}

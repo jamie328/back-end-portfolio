@@ -1,0 +1,126 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* 大區塊 */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 100%;
+    height: 550px;
+}
+.caculator{
+    min-width: 350px;
+    background-color: #ddd;
+    box-shadow: 0 0 20px 0px rgba(0,0,-0.6,0.5);
+    border-radius: 3px;
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background: #777;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin: 15px 10px 20px 15px;
+    border: 2px solid #1da5a5;
+    flex-flow: column nowrap;
+    cursor: pointer;
+    height: 75px;
+    padding-right: 5px;
+    overflow: hidden;
+    transition: all 0.1s ease-in;
+}
+.display:hover{
+    box-shadow: inset 0 0 50px 0.3px rgba(255,255,255,0.1);
+}
+.display:hover .result{
+    font-size: 25px;
+}
+.key-row{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    width:65px; height: 40px;
+    border: solid 1px black;
+    font-size: 16px;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in;
+}
+li:hover{
+    background: #eee;
+    box-shadow: inset 0 0 0px 0.3px rgba(255,255,255,0.1);
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.row:last-child{
+    display: inline-block;
+    margin: 0px 0px 0px 5px;
+}
+.row:last-child li:last-child{
+    width:150px;
+}
+.msg{
+    color:#e3e30d;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+    letter-spacing: 1.5px;
+}

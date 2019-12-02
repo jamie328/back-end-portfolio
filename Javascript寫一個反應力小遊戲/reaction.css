@@ -1,0 +1,98 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 置中畫面 */
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#2d5959; 
+    height: 500px;
+}
+.text{
+    color: #fff;
+    font-weight: normal;
+    padding: 20px 40px;
+    letter-spacing: 0.3em;
+    text-shadow: 0 0 10px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+.again{
+    color: white;
+    background: rgba(0,0,0,0);
+    padding: 10px 20px;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #666;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.again:hover{
+    background-color: rgb(226, 162, 43);
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+.again_hide{
+    display: none;
+}
+.body_change{
+    background-color: #cc3737; 
+}
+.score_board{
+    /* display: none; */
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 10px;
+    letter-spacing: 0.3em;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,77 @@
+body{
+    background-image: url('./image/outerspace.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    letter-spacing: 1.5px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;
+    word-break: normal;
+}
+.container{
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+}
+.lol , .hs{
+    background-color: #408080;
+    box-shadow: 0px 0px 2px 0.3px rgb(80,70,50);
+    border: solid 0.5px orange;
+    border-radius: 8px;
+    margin:5px auto;
+    font-size: 18px;
+    color:whitesmoke;
+    line-height: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.lol:hover , .hs:hover{
+    box-shadow: inset 0 0 2px 1px rgba(255,255,255,1);
+}
+.live{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 350px;
+    box-sizing: border-box;
+}
+.game-tv{
+    margin: 20px 25px 20px 25px;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border:dashed 1.5px oldlace;
+    padding:10px;
+    width:350px;
+    text-shadow: 0.1px 0 3px rgba(255,255,255,0.7);
+    transition: all 0.3s ease-in;
+    box-sizing: border-box;
+}
+.game-link{
+    text-decoration: none;
+    color: rgb(243, 229, 204);
+}
+.tv-name{
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: oldlace;
+}
+.viewer{
+    font-style: oblique;
+}
+.game-tv:hover{
+    box-shadow: inset 0 0 20px 3px rgba(255,255,255,1);
+}
+.tv-name:hover{
+    text-decoration: underline;
+}

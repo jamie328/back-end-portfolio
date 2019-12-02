@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roll-Your-Money(Ajax)</title>
+    <link rel="stylesheet" href="/stylesheets/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="mail-link">
+            <a href="/form">(寄信)訂閱本服務</a>
+        </div>
+        <div class="container">
+            <div class="center_flex">
+                <div class="title">
+                    Roll-Your-Money
+                </div>
+                <div class="input_area">
+                    <div class="input_group">
+                        <label for="income">月收入</label>
+                        <input id="income" name="income">
+                    </div>
+                    <div class="input_group">
+                        <label for="save">希望每個月存入</label>
+                        <input id="save" name="save">
+                    </div>
+                    <div class="input_group">
+                            <label for="expense">今天花費</label>
+                            <input id="expense" name="expense">
+                    </div>
+                </div>
+                <div class="result_area">
+                    <div class="result_btn">
+                        <p>看結果</p>
+                    </div>
+                    <div class="calc_result hide_element">
+                        <p>55%</p>
+                        <i class="fas fa-redo hide_element"></i>
+                    </div>
+                    <div class="calc_text hide_element">
+                        <p>太拚了吧！！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="record">
+        <div class="container">
+            <div class="record_title">
+                <p>把錢花在刀口上</p>
+                <small>點選下方紀錄可直接填上值哦!</small>
+            </div>
+            <ul class="record_list">
+                
+            </ul>
+        </div>
+    </section>
+    <script src="/javascripts/inmoney.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

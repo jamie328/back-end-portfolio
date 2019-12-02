@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>(測試)訂閱服務</title>
+    <link rel="stylesheet" href="stylesheets/form.css">
+</head>
+<body>
+    <div class="link">
+        <a href="/roll-money">roll-money-service-link</a>
+    </div>
+    <div class="container">
+        <form action="/form/post" method="post">
+            <h3 class="warning"><%= errors %></h3>
+            <h4>想要知道更多不為人知的祕密嗎? 請訂閱我，填寫表單！ </h4>
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <div class="form-block">
+                <label for="username">你的姓 名:</label>
+                <input type="text" id="username" name="username" value=""/>
+            </div>
+            <div class="form-block">
+                <label for="email">你的 Email:</label>
+                <input type="text" id="email" name="email" value=""/>
+            </div>
+            <div class="form-block">
+                <label for="choice">想收到的驚人秘密?</label>
+                <select id="choice" name="choice">
+                    <option value="0">教授的八卦</option>
+                    <option value="1">藝人的私生活</option>
+                    <option value="2">財團的黑幕</option>
+                    <option value="3">韓國瑜的頭髮根數</option>
+                </select>
+            </div>
+            <div class="form-block">
+                <input type="submit" value="訂閱!"/>
+            </div>
+        </form> 
+    </div>    
+</body>
+</html>
