@@ -1,4 +1,4 @@
-### 程式自學 Code Side Project <br/>[Jamie Huang程式的自學小部落格](https://jamie-web-heroku.herokuapp.com/index/)<br>[Javascript & Node.js 作品集](https://huangjamison.github.io/)
+### 程式自學 Code Side Project <br/><br/>[Jamie Huang程式的自學小部落格](https://jamie-web-heroku.herokuapp.com/index/)<br/><br/>[Javascript & Node.js 作品集](https://huangjamison.github.io/)
 ---
 
 **1. [選基地台問題 (基礎迴圈觀念建立)](https://huangjamison.github.io/Portfolio_Code/選基地台問題)**
