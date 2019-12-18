@@ -1,0 +1,159 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: rgb(214, 205, 166);
+}
+/*所有連結 都有cursor*/
+a{
+    cursor: pointer;
+}
+.container{
+    min-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.jobs{
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+}
+.job{
+    width: 400px;
+    border:1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in;
+    color: black;
+    text-shadow: white 0.5px 0.5px 1px;
+    border-radius: 7px;
+}
+.job:hover{
+    border: 3px solid blueviolet;
+    font-weight: 700;
+}
+.job ~ .job{
+    margin-top: 20px;
+}
+
+.job_add{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.btn_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-width: 450px;
+}
+.btn_area > div{
+    margin: 5px;
+}
+.btn_area input{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding:8px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    font-size: 10px;
+}
+.btn_area input:hover{
+    border: 3px solid blueviolet;
+    font-weight: 700;
+}
+
+.title{
+    margin: 0 auto;
+    width: 450px;
+    font-size: 20px;
+    word-wrap: break-word;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+}
+.job__link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.job__link > a{
+    color: black;
+    margin: 5px;
+    transition: all 0.3s ease-in;
+}
+.job__link > a:hover{
+    color: blue;
+}
+
+
+.hidden{
+    display: none;
+}
+
+/* add form.php */
+.form_container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.form_container div ~ div{
+    margin:10px
+}
+.add_job_form input,textarea{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form__submit>input{
+    cursor: pointer;
+}
+.form__submit>input:hover{
+    border: 3px solid blueviolet;
+}
