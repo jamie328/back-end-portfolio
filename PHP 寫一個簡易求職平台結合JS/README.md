@@ -18,8 +18,8 @@
 
 ### (B)程式描述：
 在待業期間，想寫一個簡易求職平台作PHP學習的展現，目標為要作出簡易 CRUD 並結合Javascript非同步方式，將所學串連。
-
-[PHP簡易求職平台實作心得記錄](https://reurl.cc/nV2WQn)
+[PHP結合JS&Ajax非同步簡易講解](https://www.youtube.com/watch?v=re8XqEhlviw)
+[PHP簡易求職平台實作心得記錄](https://reurl.cc/RdgK4D)
 
 
 <img src="./jobs.png" alt="簡易求職平台" title="width=400" width="500" />
