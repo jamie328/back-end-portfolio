@@ -21,7 +21,7 @@
 
 [PHP結合JS&Ajax非同步簡易講解](https://www.youtube.com/watch?v=re8XqEhlviw)
 
-[PHP簡易求職平台實作心得記錄](https://reurl.cc/RdgK4D)
+[PHP簡易求職平台實作心得記錄](https://reurl.cc/M7xqxv)
 
 
 <img src="./jobs.png" alt="簡易求職平台" title="width=400" width="500" />
