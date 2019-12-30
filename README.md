@@ -33,3 +33,6 @@
 
 **16. [用PHP寫一個友善版天眼通(含簡易會員系統)](https://reurl.cc/Na8jAq)**
 
+**17. [在 Django 上爬蟲所有 NBA News 並爬蟲 NBA News](https://reurl.cc/Ob89o3)**
+
+
