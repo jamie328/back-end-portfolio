@@ -3,7 +3,7 @@
 網站2(功能尚未修理)：[Node.js發信](https://nodejs-jamie.herokuapp.com/form)<br/><br/>
 ---
 
-**1. [每日記帳 Roll-your-money](./每日記帳%20Roll-your-money/README.md))**
+**1. [每日記帳 Roll-your-money](shorturl.at/ntD27)**
 
 **2. [Node.js發信](./Node.js發信/README.md)**
 
