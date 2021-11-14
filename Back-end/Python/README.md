@@ -2,7 +2,7 @@
 網站：[Jamie Huang程式的自學小部落格](https://jamie-web-heroku.herokuapp.com/index/)<br/><br/>
 ---
 
-**1. [Django 架設簡易網站與To-do-app (使用 MTV 框架實作架設簡易網站與To-do-app)](shorturl.at/imKRT)**
+**1. [Django 架設簡易網站與To-do-app (使用 MTV 框架實作架設簡易網站與To-do-app)](https://shorturl.at/imKRT)**
 
 **2. [Django how to do pagination & searching](http://shorturl.at/iktJ1)**
 
