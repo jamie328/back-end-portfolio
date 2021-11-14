@@ -8,8 +8,8 @@
 
 **3. [用 Javascript 寫一個計算機](./用Javascript寫一個計算機/README.md)**
 
-**4. [Twitch API 超簡易實作](./用Javascript串接Twitch%20API/README.md)**
+**4. [Twitch API 超簡易實作](./用Javascript串接TwitchAPI/README.md)**
 
-**5. [力大搬家公司 React(styled component)](./力大搬家公司React(styled%20component)/README.md)**
+**5. [力大搬家公司 React(styled component)](./力大搬家公司React(StyledComponent)/README.md)**
 
 
