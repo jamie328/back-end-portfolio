@@ -10,6 +10,6 @@
 
 **4. [Twitch API 超簡易實作](./用Javascript串接TwitchAPI/README.md)**
 
-**5. [力大搬家公司 React(styled component)](./力大搬家公司React(StyledComponent)/README.md)**
+**5. [力大搬家公司 React(styled component)](https://shorturl.at/aovE5)**
 
 
