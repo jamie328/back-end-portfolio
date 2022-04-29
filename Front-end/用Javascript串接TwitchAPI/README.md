@@ -1,5 +1,5 @@
 ## 用Javascript 串接 Twitch API  <br/>
-[串接Twitch連結](https://huangjamison.github.io/front-end-portfolio/popular_twitch/twitch.html)<br/>
+[串接Twitch連結](https://jamie328.github.io/front-end-portfolio/popular_twitch/twitch.html)<br/>
 ---
 ### (A)程式學習到的事情：
 * (1) 了解 API 意義與 API文件閱讀

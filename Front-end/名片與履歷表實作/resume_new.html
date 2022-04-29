@@ -1,228 +1,285 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
-    <head>
-        <!--meta  -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="description" content="Jamie Huang's Blog use django to create your own website
+  <head>
+    <!--meta  -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="description"
+      content="Jamie Huang's Blog use django to create your own website
          and familiarize models ,templates and views system (MVC)
-         — Blog & To-do-list & BBS social media & login function | Heroku.">
-        <!--title  -->
-        <title>
-            Jamie Huang's Resume
-        </title>
-        <!-- Bootstrap CSS & 自己 CSS  -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href= "./static/css/resume_new.css" >
-    </head>
-    <body>
-        <div class="link">
-            <a href="https://jamie-web-heroku.herokuapp.com/index/" target="_blank">
-                Jamie's Blog 首頁
-            </a>
+         — Blog & To-do-list & BBS social media & login function | Heroku."
+    />
+    <!--title  -->
+    <title>
+      Jamie Huang's Resume
+    </title>
+    <!-- Bootstrap CSS & 自己 CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./static/css/resume_new.css" />
+  </head>
+  <body>
+    <div class="link">
+      <a href="https://jamie-web-heroku.herokuapp.com/index/" target="_blank">
+        Jamie's Blog 首頁
+      </a>
+    </div>
+    <div class="link">
+      <a href="./index.html" target="_blank">
+        Github.io Javascript 作品首頁
+      </a>
+    </div>
+    <div class="resume">
+      <div class="top">
+        <div class="name">
+          黃晨竣
+          <div class="re-en-name">
+            Jamie Huang
+          </div>
+          <div class="slogan">
+            Learning by doing , not just saying.
+          </div>
         </div>
-        <div class="link">
-            <a href="./index.html" target="_blank">
-                Github.io Javascript 作品首頁
-            </a>
+      </div>
+      <div class="mid-left">
+        <img class="photo" src="./static/images/self.png" alt="Jamie photo" />
+        <h3 class="about">
+          About-me
+        </h3>
+        <div class="brief-intro">
+          喜歡將自己的想法用程式邏輯實現於程式當中，相信投入心流狀態，工作會更有意義。
         </div>
-        <div class="resume">
-            <div class="top">
-              <div class="name">
-                黃晨竣
-                <div class="re-en-name">
-                    Jamie Huang
-                </div>
-                <div class="slogan">
-                    Learning by doing , not just saying.
-                </div>
-              </div>
-            </div>
-            <div class="mid-left">
-            <img class="photo" src="./static/images/self.png" alt="Jamie photo"/>
-              <h3 class="about">
-                About-me
-              </h3>
-              <div class="brief-intro">
-              喜歡將自己的想法用程式邏輯實現於程式當中，相信投入心流狀態，工作會更有意義。
-            </div>
-            <div class="contact">
-            <i class="fas fa-address-book">
+        <div class="contact">
+          <i class="fas fa-address-book">
             <span class="contact-tit">Contact</span>
+          </i>
+          <div class="contact-info">
+            <i class="fas fa-street-view">
+              <span>基隆市中山區</span>
             </i>
-              <div class="contact-info">
-                <i class="fas fa-street-view">
-                  <span>基隆市中山區</span>
-                </i><br>
-                <i class="fas fa-phone-alt">
-                   <span>0978-887-807</span>
-                </i><br>
-                <a href="https://huangjamison.github.io/Portfolio_Code/" target="_blank">
-                <i class="fab fa-github">
-                <span>https://huangjamison.github.io/Portfolio_Code/</span>
-                </i></a><br>
-                <i class="fas fa-envelope">
-                  <span>b10130402@gmail.com</span>
-                </i>
-             </div>
-            </div>
-            <div class="ability">
-              <i class="fas fa-briefcase">
-              <span class="ability-skill">Skill</span></i>
-              <div class="coding-skill">
-                <div class="code-e">
-                <div class="code"><span>English</span>
-                    <div class="hp"></div>
-                    <div class="hp-e"></div>
-                  <div class="hp-p-we">Toeic 795</div>
-                </div></div>
-                <div class="code-p">
-                <div class="code"><span>Python</span>
-                    <div class="hp"></div>
-                    <div class="hp-p"></div>
-                  <div class="hp-p-w">85</div>
-                </div></div>
-                <div class="code-j">
-                    <div class="code"><span>Javascript</span>
-                        <div class="hp"></div>
-                        <div class="hp-j"></div>
-                      <div class="hp-p-w">85</div>
-                </div></div>
-                <div class="code-n">
-                    <div class="code"><span>Node.js</span>
-                        <div class="hp"></div>
-                        <div class="hp-n"></div>
-                      <div class="hp-p-w">80</div>
-                </div></div>
-                <div class="code-dj">
-                <div class="code"><span>Django</span>
-                    <div class="hp"></div>
-                    <div class="hp-d"></div>
-                  <div class="hp-p-w">80</div>
-                </div></div>
-                <div class="code-g">
-                  <div class="code"><span>Git/Github</span>
-                    <div class="hp"></div>
-                    <div class="hp-g"></div>
-                  <div class="hp-p-w">75</div>
-                </div></div>
-                <div class="code-h">
-                <div class="code"><span>HTML</span>
-                    <div class="hp"></div>
-                    <div class="hp-h"></div>
-                  <div class="hp-p-w">75</div>
-                </div></div>
-                <div class="code-c">
-                <div class="code"><span>CSS</span>
-                    <div class="hp"></div>
-                    <div class="hp-c"></div>
-                  <div class="hp-p-w">70</div>
-                </div></div>
-                <div class="code-d">
-                <div class="code"><span>Database</span>
-                    <div class="hp"></div>
-                    <div class="hp-db"></div>
-                  <div class="hp-p-w">65</div>
-                </div>
-                </div>
-
-              </div>
-
-            </div>
-            </div><div class="mid-right">
-              <div class="edu-exp-tit">
-                <i class="fas fa-user-graduate">
-                <span>Education and Experience</span>
-                </i>
-              </div>
-              <div class="edu-exp">
-              <div class="edu-exp-p">
-                <div class="edu-exp-p-t">
-                  臺灣科技大學
-              工業管理系<br></div>
-                <small>2012/9-2016/6</small><br>
-                <span>實習光隆羽絨成衣實業公司，瞭解成衣製程與推動改善專案。推動生產線平衡改善、生產管理燈號專案。 </span>
-              </div>
-           <div class="edu-exp-p">
-                <div class="edu-exp-p-t">
-                  成功大學 工業與資訊管理所<br></div>
-                <small>2016/9-2018/6</small><br>
-                <span>實習於嘉柏微電子科技公司，負責 Warehouse chemical room 專案，
-                    並以 Newsvendor 建構「需求不確定下原物料與再生物料之訂購策略」，
-                    比較純研磨液與再生研磨液訂購策略，利用數值分析探討不同參數對於利潤的影響。
-           </span>
-              </div>
-              <div class="edu-exp-p">
-                <div class="edu-exp-p-t">
-                  群創光電 出貨品質管理工程師<br></div>
-                <small>2018/12-2019/6</small><br>
-                <span>◼ 解決出貨產品的品質異常問題 <br>
-          ◼ 車用產品量產品質控制與監控良率改善計劃 <br>
-          ◼ 品質週、月報表程式化 (使用 VBA 撰寫) 與 產品良率報告製作
-           </span>
-              </div>
-              <div class="line">
-                <div class="line-cir1">
-                  <div class="line-cir1-in">
-                  </div>
-                </div>
-                  <div class="line-cir2">
-                  <div class="line-cir2-in">
-                  </div>
-                </div>
-                  <div class="line-cir3">
-                  <div class="line-cir3-in">
-                  </div>
-                </div>
-             </div>
-            </div>
-            <div class="my-ach-tit">
-              <i class="fas fa-thumbtack">
-                <span>Portfolio</span>
+            <br />
+            <i class="fas fa-phone-alt">
+              <span>0978-887-807</span>
+            </i>
+            <br />
+            <a
+              href="https://jamie328.github.io/Portfolio_Code/"
+              target="_blank"
+            >
+              <i class="fab fa-github">
+                <span>https://jamie328.github.io/Portfolio_Code/</span>
               </i>
+            </a>
+            <br />
+            <i class="fas fa-envelope">
+              <span>b10130402@gmail.com</span>
+            </i>
+          </div>
+        </div>
+        <div class="ability">
+          <i class="fas fa-briefcase">
+            <span class="ability-skill">Skill</span>
+          </i>
+          <div class="coding-skill">
+            <div class="code-e">
+              <div class="code">
+                <span>English</span>
+                <div class="hp"></div>
+                <div class="hp-e"></div>
+                <div class="hp-p-we">Toeic 795</div>
+              </div>
             </div>
-            <div class="my-ach">
-                <div class="work">1. Django MTV 網站部署
-                    <img class ="work-img1" src="./static/images/bbs.png"
-                       alt="Django-website-bbs">
-                    <div class="work-p">
-                        <ul>
-                            <li>Blog-article</li>
-                            <li>Login-auth API</li>
-                            <li>To-do-list</li>
-                            <li>BBS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="work">2. Web-Craweler
-                    <img class="work-img2" src="./static/images/keyword.png"
-                        alt="Web Crawler Word Cloud">
-                    <div class="work-p">
-                        <ul>
-                            <li>電影熱門關鍵字文字雲</li>
-                            <li>Selenium 篩選股票標的物</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="work">3. Javascript & Node.js
-                    <img class="work-img3" src="./static/images/twitch.png"
-                        alt="Javascript twitch API"">
-                    <img class="work-img4" src="./static/images/roll-money.png"
-                        alt="Javascript twitch API"">
-                    <div class="work-p">
-                        <ul>
-                            <li>反應力小遊戲</li>
-                            <li>計算機實作</li>
-                            <li>Twitch 串接實作</li>
-                            <li>Roll-Your-Money簡易記帳</li>
-                            <li>Node.js 寄發 mail 功能</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="code-p">
+              <div class="code">
+                <span>Python</span>
+                <div class="hp"></div>
+                <div class="hp-p"></div>
+                <div class="hp-p-w">85</div>
+              </div>
             </div>
+            <div class="code-j">
+              <div class="code">
+                <span>Javascript</span>
+                <div class="hp"></div>
+                <div class="hp-j"></div>
+                <div class="hp-p-w">85</div>
+              </div>
+            </div>
+            <div class="code-n">
+              <div class="code">
+                <span>Node.js</span>
+                <div class="hp"></div>
+                <div class="hp-n"></div>
+                <div class="hp-p-w">80</div>
+              </div>
+            </div>
+            <div class="code-dj">
+              <div class="code">
+                <span>Django</span>
+                <div class="hp"></div>
+                <div class="hp-d"></div>
+                <div class="hp-p-w">80</div>
+              </div>
+            </div>
+            <div class="code-g">
+              <div class="code">
+                <span>Git/Github</span>
+                <div class="hp"></div>
+                <div class="hp-g"></div>
+                <div class="hp-p-w">75</div>
+              </div>
+            </div>
+            <div class="code-h">
+              <div class="code">
+                <span>HTML</span>
+                <div class="hp"></div>
+                <div class="hp-h"></div>
+                <div class="hp-p-w">75</div>
+              </div>
+            </div>
+            <div class="code-c">
+              <div class="code">
+                <span>CSS</span>
+                <div class="hp"></div>
+                <div class="hp-c"></div>
+                <div class="hp-p-w">70</div>
+              </div>
+            </div>
+            <div class="code-d">
+              <div class="code">
+                <span>Database</span>
+                <div class="hp"></div>
+                <div class="hp-db"></div>
+                <div class="hp-p-w">65</div>
+              </div>
             </div>
           </div>
-          <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    </body>
+        </div>
+      </div>
+      <div class="mid-right">
+        <div class="edu-exp-tit">
+          <i class="fas fa-user-graduate">
+            <span>Education and Experience</span>
+          </i>
+        </div>
+        <div class="edu-exp">
+          <div class="edu-exp-p">
+            <div class="edu-exp-p-t">
+              臺灣科技大學 工業管理系
+              <br />
+            </div>
+
+            <small>2012/9-2016/6</small>
+            <br />
+            <span>
+              實習光隆羽絨成衣實業公司，瞭解成衣製程與推動改善專案。推動生產線平衡改善、生產管理燈號專案。
+            </span>
+          </div>
+          <div class="edu-exp-p">
+            <div class="edu-exp-p-t">
+              成功大學 工業與資訊管理所
+              <br />
+            </div>
+
+            <small>2016/9-2018/6</small>
+            <br />
+            <span>
+              實習於嘉柏微電子科技公司，負責 Warehouse chemical room 專案， 並以
+              Newsvendor 建構「需求不確定下原物料與再生物料之訂購策略」，
+              比較純研磨液與再生研磨液訂購策略，利用數值分析探討不同參數對於利潤的影響。
+            </span>
+          </div>
+          <div class="edu-exp-p">
+            <div class="edu-exp-p-t">
+              群創光電 出貨品質管理工程師
+              <br />
+            </div>
+
+            <small>2018/12-2019/6</small>
+            <br />
+            <span>
+              ◼ 解決出貨產品的品質異常問題
+              <br />
+              ◼ 車用產品量產品質控制與監控良率改善計劃
+              <br />
+              ◼ 品質週、月報表程式化 (使用 VBA 撰寫) 與 產品良率報告製作
+            </span>
+          </div>
+          <div class="line">
+            <div class="line-cir1">
+              <div class="line-cir1-in"></div>
+            </div>
+            <div class="line-cir2">
+              <div class="line-cir2-in"></div>
+            </div>
+            <div class="line-cir3">
+              <div class="line-cir3-in"></div>
+            </div>
+          </div>
+        </div>
+        <div class="my-ach-tit">
+          <i class="fas fa-thumbtack">
+            <span>Portfolio</span>
+          </i>
+        </div>
+        <div class="my-ach">
+          <div class="work">
+            1. Django MTV 網站部署
+            <img
+              class="work-img1"
+              src="./static/images/bbs.png"
+              alt="Django-website-bbs"
+            />
+            <div class="work-p">
+              <ul>
+                <li>Blog-article</li>
+                <li>Login-auth API</li>
+                <li>To-do-list</li>
+                <li>BBS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work">
+            2. Web-Craweler
+            <img
+              class="work-img2"
+              src="./static/images/keyword.png"
+              alt="Web Crawler Word Cloud"
+            />
+            <div class="work-p">
+              <ul>
+                <li>電影熱門關鍵字文字雲</li>
+                <li>Selenium 篩選股票標的物</li>
+              </ul>
+            </div>
+          </div>
+          <div class="work">
+            3. Javascript & Node.js <img class="work-img3"
+            src="./static/images/twitch.png" alt="Javascript twitch API""> <img
+            class="work-img4" src="./static/images/roll-money.png"
+            alt="Javascript twitch API"">
+            <div class="work-p">
+              <ul>
+                <li>反應力小遊戲</li>
+                <li>計算機實作</li>
+                <li>Twitch 串接實作</li>
+                <li>Roll-Your-Money簡易記帳</li>
+                <li>Node.js 寄發 mail 功能</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </body>
 </html>

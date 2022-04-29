@@ -1,10 +1,10 @@
 ## 力大搬家公司 React(styled component)  <br/>
-網站頁面：[力大搬家公司](https://huangjamison.github.io/power-moving/#/)
+網站頁面：[力大搬家公司](https://jamie328.github.io/power-moving/#/)
 ---
 # power-moving company website
 ## What
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-You can watch the website with [power-moving site](https://huangjamison.github.io/power-moving/).
+You can watch the website with [power-moving site](https://jamie328.github.io/power-moving/).
 
 ## Why and learn
 My father is moving worker, I think that I can use my skill to help him to get more customers.
@@ -23,7 +23,7 @@ Click the fork button.
 ### Step 2 git clone from your github
 I take my github example.
 ```
-git clone git@github.com:HuangJamison/power-moving.git
+git clone git@github.com:jamie328/power-moving.git
 ```
 
 ### Step 3 npm install

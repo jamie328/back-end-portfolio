@@ -1,5 +1,5 @@
 ## 用Javascript寫一個反應力遊戲  <br/>
-[反應力遊戲連結](https://huangjamison.github.io/front-end-portfolio/reaction_game/reaction.html)<br/>
+[反應力遊戲連結](https://jamie328.github.io/front-end-portfolio/reaction_game/reaction.html)<br/>
 ---
 ### (A)程式學習到的事情：
 * (1) 練習刻畫遊戲介面

@@ -1,6 +1,6 @@
 ## 名片與履歷表實作  <br/>
 [名片連結](https://jamie-web-heroku.herokuapp.com/about/)
-[履歷表連結](https://huangjamison.github.io/front-end-portfolio/jamie_resume.html)<br/>
+[履歷表連結](https://jamie328.github.io/front-end-portfolio/jamie_resume.html)<br/>
 ---
 ### (A)程式學習到的事情：
 * (1) HTML & CSS 觀念與實際運用
