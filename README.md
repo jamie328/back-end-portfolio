@@ -9,7 +9,7 @@
 ## 前端作品網站
 [前端作品網站一覽](https://jamie328.github.io/front-end-portfolio/)
 
-## 學習記錄
+## 學習記錄文章
 1. [Back-end](./Back-end/README.md)
 2. [Front-end](./Front-end/README.md)
 3. [Craweler](./Craweler/README.md)
